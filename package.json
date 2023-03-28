@@ -12,6 +12,10 @@
 		".": {
 			"import": "./dist/somus-ui-design-system.es.js",
 			"require": "./dist/somus-ui-design-system.umd.js"
+		},
+		"./dist/somus-ui-design-system.css": {
+			"import": "./dist/somus-ui-design-system.css",
+			"require": "./dist/somus-ui-design-system.css"
 		}
 	},
 	"scripts": {
