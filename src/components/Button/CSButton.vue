@@ -45,19 +45,19 @@ const buttonSize = computed(() => {
 	display: inline-block;
 
 	&--small {
-		padding: 8px;
+		padding: $spacing-2;
 	}
 
 	&--medium {
-		padding: 8px 12px;
+		padding: $spacing-2 $spacing-3;
 	}
 
 	&--large {
-		padding: 12px 16px;
+		padding: $spacing-3 $spacing-4;
 	}
 
 	&--x-large {
-		padding: 16px 20px;
+		padding: $spacing-4 $spacing-5;
 	}
 }
 </style>

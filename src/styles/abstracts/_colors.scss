@@ -1,0 +1,83 @@
+// BRANDS COLORS
+$color-primary-pure: #05113B;
+$color-primary-light: #395194;
+$color-primary-medium: #0B277D;
+$color-primary-dark: #0E1B44;
+$color-secondary-pure: #205DF5;
+$color-secondary-light: #B3D0FF;
+$color-secondary-medium: #6BA0FF;
+$color-secondary-dark: #4887FF;
+
+// NEUTRAL
+$neutral-color-high-pure: #FFFFFF;
+$neutral-color-high-light: #F7FBFF;
+$neutral-color-high-medium: #D7DCF0;
+$neutral-color-high-dark: #A7AFCC;
+//$neutral-color-low-pure: #16181F;
+$neutral-color-low-pure: #0F1922;
+$neutral-color-low-light: #7D84A2;
+$neutral-color-low-medium: #535B76;
+$neutral-color-low-dark: #202941;
+
+// FEEDBACK
+$feedback-color-default-pure: #B2C0D5;
+$feedback-color-default-light: #F4F6F9;
+$feedback-color-default-dark: #8097BA;
+$feedback-color-success-pure: #7DD3E4;
+$feedback-color-success-light: #E0F7FA;
+$feedback-color-success-dark: #4AC3D2;
+$feedback-color-alert-dark: #FFCC80;
+$feedback-color-alert-light: #FFF3E0;
+$feedback-color-alert-pure: #FFA726;
+$feedback-color-error-pure: #FF5252;
+$feedback-color-error-light: #FFEBEE;
+$feedback-color-error-dark: #C62828;
+
+// INFO
+$info-grey-inactive:  #EBF3FF;
+$info-grey-active: #4E5770;
+$info-blue-inactive: #ADDCFF;
+$info-blue-active: #4FB3FF;
+$info-turquoise-inactive: #C7F5F3;
+$info-turquoise-active: #48D1CC;
+$info-yellow-inactive: #FFE29E;
+$info-yellow-active: #FFCF60;
+$info-red-inactive: #E9A0A0;
+$info-red-active: #B01818;
+$info-purple-inactive: #FFD0FF;
+$info-purple-active: #D19BE3;
+$info-pink-inactive: #FECDE7;
+$info-pink-active: #F893CA;
+$info-orange-inactive: #FBCBB6;
+$info-orange-active: #FB9468;
+$info-green-inactive: #B8E0B9;
+$info-green-active: #228826;
+$info-cyan-inactive: #99F3FF;
+$info-cyan-active: #06C0D9;
+
+// ACCESSIBILITY COLORS
+$hc-color-primary-pure: #FFFA00;
+$hc-color-primary-light: #FFFD99;
+$hc-color-primary-dark: #B8B40A;
+$hc-neutral-color-low-pure: #212121;
+$hc-feedback-color-error-pure: #FF8A8A;
+$hc-feedback-color-default-pure: $hc-color-primary-pure;
+$hc-feedback-color-default-light: $hc-color-primary-light;
+$hc-feedback-color-error-light: $info-red-inactive;
+$hc-info-grey-inactive: #F5F5F5;
+$hc-info-blue-inactive: #C9D8ED;
+$hc-info-red-inactive: #EF9A9A;
+$hc-info-pink-inactive: #FF5CB4;
+$hc-info-cyan-active: #01BBD4;
+// TODO: Token será redefinido pelo @RICARDO
+$token-focus: #FC5EB3;
+
+
+// CORES NÃO ENCONTRADAS NA MIGRAÇÃO
+$status-color-canceled-medium: #bdbdbd;
+$status-color-generated-light: #fff8e1;
+$status-color-active-medium: #80deea;
+$status-color-disabled-medium: #EEEEEE;
+$hc-neutral-color-high-medium: #e0e0e0;
+$basic-neutral-color-dark: #16181F;
+$neutral-color-low-light2: #495066;

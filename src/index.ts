@@ -1,3 +1,1 @@
-import './assets/main.css'
-
-export { default as CSButton } from './components/CSButton.vue'
+export { default as CSButton } from './components/Button/CSButton.vue';
