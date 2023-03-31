@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import CSButton from '../src/components/Button/CSButton.vue';
-import CSSwitch from '../src/components/Switch/CSSwitch.vue';
-import '../src/styles.scss';
+import { ref } from 'vue'
+import CSButton from '../src/components/Button/CSButton.vue'
+import CSSwitch from '../src/components/Switch/CSSwitch.vue'
 
 const switchModel = ref(false)
 </script>
