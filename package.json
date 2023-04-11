@@ -11,7 +11,7 @@
 	"types": "dist/types/index.d.ts",
 	"scripts": {
 		"dev": "vite",
-		"build": "nr clean:dist && vite build --mode prod && nr build:types",
+		"build": "vite build --mode prod && nr build:types",
 		"build:types": "vue-tsc --project tsconfig.build-types.json --declaration --emitDeclarationOnly --outDir dist/types",
 		"clean:dist": "rimraf dist",
 		"typecheck": "vue-tsc --project tsconfig.build-types.json --noEmit",
@@ -44,10 +44,12 @@
 		"npm-run-all": "^4.1.5",
 		"prettier": "^2.8.4",
 		"rimraf": "^4.4.1",
+		"rollup-plugin-copy": "^3.4.0",
 		"sass": "^1.60.0",
 		"start-server-and-test": "^2.0.0",
 		"typescript": "^5.0.2",
 		"vite": "^4.1.4",
+		"vite-svg-loader": "^4.0.0",
 		"vitest": "^0.29.1",
 		"vue-tsc": "^1.2.0"
 	}

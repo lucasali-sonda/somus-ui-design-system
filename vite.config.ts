@@ -1,6 +1,8 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
+import Copy from 'rollup-plugin-copy'
+import SVGLoader from 'vite-svg-loader'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -11,7 +13,7 @@ export default defineConfig({
 			}
 		}
 	},
-	plugins: [Vue({})],
+	plugins: [Vue({}), SVGLoader()],
 	build: {
 		outDir: './dist',
 		lib: {
@@ -20,12 +22,22 @@ export default defineConfig({
 			fileName: (format) => `somus-ui-design-system.${format}.js`
 		},
 		rollupOptions: {
+			plugins: [
+				Copy({
+					targets: [{ src: 'src/styles', dest: 'dist/styles' }]
+				})
+			],
 			external: ['vue'],
 			output: {
 				globals: {
 					vue: 'Vue'
 				}
 			}
+		}
+	},
+	resolve: {
+		alias: {
+			'@': resolve(__dirname, 'src')
 		}
 	}
 })
